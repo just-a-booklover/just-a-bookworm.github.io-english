@@ -3,35 +3,62 @@
     <head>
 <style>
          body {
-            font-family: "Crimson Text", Garamond, "Times New Roman", serif;
-            background-color: rgb(250, 243, 221);
-            font-size: 35px;
-            color: rgb(94, 100, 114);
+            font-family: Georgia, Times, "Times New Roman", serif; 
+            background-color: rgb(163, 206, 241);
+            color: rgb(39, 76, 119);
+            font-size: 30px;
         }
         a:link {
-            color: rgb(94, 100, 114);
+            color: rgb(39, 76, 119);
         }
         a:visited {
-            color: rgb(174, 217, 224);
+            color: rgb(139, 140, 137);
         }
         a:hover {
-            background-color: rgb(250, 243, 221);
+            background-color: rgb(96, 150, 186);
         }
         #titlediv {
-            border-bottom: 1px solid rgb(94, 100, 114);
-            background-color: rgb(255, 166, 158);
-            background-image: url(https://live.staticflickr.com/65535/50064617341_a280817b91_w.jpg);
-            margin-right: -20px;
-            margin-left: -20px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            font-size:39px;
+            background-color: rgb(231, 236, 239);
+            font-size: 39px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            width: 99%;
+            border: 5px solid rgb(96, 150, 186);
+            box-shadow: 5px 5px 20px rgb(139, 140, 137);
         }
-        #megadiv {
-            position: absolute;
-            padding-left: 7px;
-            padding-right: 7px;
-            margin-top: -29px;
+        #links {
+            font-size: 25px;
+            background-color: rgb(231, 236, 239);
+            margin-right: 5px;
+            margin-left: 5px;
+            text-align: center;
+            padding: 5px;
+            clear: both;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 5px solid rgb(96, 150, 186);
+            box-shadow: 5px 5px 20px rgb(139, 140, 137);
+        }
+        .column.main {
+            width: 65%;
+            margin-top: 30px;
+            padding: 2px;
+            margin-right: 10px;
+            margin-left: 10px;
+            background-color: rgb(163, 206, 241);
+        }
+        .sotto {
+            background-color: rgb(231, 236, 239);
+            border: 5px solid rgb(96, 150, 186);
+            padding: 10px;
+            margin-bottom: 20px;
+            box-shadow: 5px 5px 20px rgb(139, 140, 137);
+        }
+        .column.side {
+            width: 30%;
+            margin-left: 10px;
+            margin-top: 30px;
+            background-color: rgb(163, 206, 241);
         }
         #title {
             text-align: center;
@@ -40,32 +67,29 @@
             margin-top: -15px;
         }
         #psmall {
-            font-size: 20px;
-        }
-        #div2 {
-            width: 28%;
-            float: right;
-            border: 1px solid rgb(94, 100, 114);
-            background-color: rgb(255, 166, 158);
-            padding-left: 7px;
-            padding-right: 7px;
-            background-image: url(https://live.staticflickr.com/65535/50064617341_a280817b91_w.jpg);
-            font-size: 30px;
+            font-size: 25px;
         }
         #piccolo {
-            border-top: 1px solid rgb(94, 100, 114);
-            background-color: rgb(255, 166, 158);
-            margin-right: -20px;
-            margin-left: -20px;
+            font-size: 10px;
+            background-color: rgb(231, 236, 239);
+            margin-right: 5px;
+            margin-left: 5px;
             text-align: right;
-            padding-bottom: 20px;
-            background-image: url(https://live.staticflickr.com/65535/50064617341_a280817b91_w.jpg);
+            padding: 5px;
+            clear: both;
+            margin-top: 20px;
+            border: 5px solid rgb(96, 150, 186);
+            box-shadow: 5px 5px 20px rgb(139, 140, 137);
         }
        #img {
             float: left;
        }
        #img2 {
             float: right;
+       }
+       .column {
+           background-color: rgb(255, 255, 255);
+           float: left;
        }
        .rubrica {
             width: 67%;
@@ -88,51 +112,52 @@
 
     </head>
     <body>
-    <div id="megadiv">
-    <div id="centre">
+ 
         <div id="titlediv"><h1 id="title">Just a Bookworm</h1></div>
-        <p>Hi, I'm Laura and I love reading. I decided to create this website to share what I think about the books I read and other things.</p>
         
-         <div id="div2">
-         <h3>Contents:</h3>
-        <ul id="vicino"> 
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-elinks/">other links</a></li>
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-columns/">other topics</a></li>
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-books/">recommended books</a></li>
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-movies/">recommended movies and TV shows</a></li>
-           
-        </ul>
-             <p id="vicino">go back to the <a href="https://just-a-booklover.github.io/just-a-bookworm.github.io">Italian version</a> ;) .</p>
-        </div>
+        <div id="links"><p>
+            <a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-elinks/">OTHER LINKS</a>  —  
+            <a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-columns/">OTHER TOPICS</a>  —  
+            <a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-books/">REVIEWED BOOKS</a>  —  
+            <a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-rubrica/">REVIEWED MOVIES AND TV SHOWS</a></p></div>
+        
+        <div class="column main"><div class="sotto div"><p>Hi, I'm Laura and I love reading. I decided to create this website to share what I think about the books I read and other things.</p>
         
         <p> What I want to post:</p>
         
         <ul id="vicino">
-            <li><a href="#recensionilibri">book recommendations</a></li>
-            <li><a href="#recensionifilm">movie or TV show recommendations</a></li>
+            <li><a href="#recensionilibri">book reviews</a></li>
+            <li><a href="#recensionifilm">movie or TV show reviews</a></li>
             <li> <a href="#altricontenuti">other topics</a></li>
         </ul>
         </div>
         
-        <div>
-        <h3 id="recensionilibri">Book recommendations</h3>
-        <p id="vicino">I've always loved reading, and in 2017 I opened an Instagram account (if you want to see it it's @rana_lettrice, the recommendations are in Italian, but you might enjoy my photos .^.) where I used to recommend books. But I don't like Instagram anymore so I deleted Instagram from my phone, I learnt how to create websites and I started this blog.<br> I am from Italy and I read mostly Italian books, but sometimes (in fact, everytime I can find a book in English in the library or online by an author I think I can understand well enough) I read in English too. I wouldn't post here in the English section Italian books because of the quotes: I wouldn't translate them right and I don't want to disrespect the author by quoting him wrong.<br>By the way, my recommendations will contain:
+        <div class="sotto div">
+        <h3 id="recensionilibri">Book reviews</h3>
+        <p id="vicino">I've always loved reading, and in 2017 I opened an Instagram account (if you want to see it it's @rana_lettrice, the reviews are in Italian, but you might enjoy my photos .^.) where I used to recommend books. But I don't like Instagram anymore so I deleted Instagram from my phone, I learnt how to create websites and I started this blog.<br> I am from Italy and I read mostly Italian books, but sometimes (in fact, everytime I can find a book in English in the library or online by an author I think I can understand well enough) I read in English too. I wouldn't post here in the English section Italian books because of the quotes: I wouldn't translate them right and I don't want to disrespect the author by quoting him wrong.<br>By the way, my recommendations will contain:
         </p>
         <ul id="vicino">
             <li>the plot of the book, of course</li>
             <li>my opinion on the book</li>
             <li>some nice quotes</li>
             <li>a part where I will say my thoughts in some scenes (this part will contain spoilers)</li>
-        </ul>
+            </ul></div>
         
-        <h3 id="recensionifilm"> Movie or TV show recommendations</h3>
-        <p id="vicino">On the Instagram account, I used to recommend also movies and TV shows. <br>
-        I don't like talking about movies as I like talking about books, but eventually I recommend TV shows and movies. This kind of recommendations won't be frequent because I watch really few movies and I'm really slow wth TV shows, I don't have much time.</p>
+        <div class="sotto div">
+        <h3 id="recensionifilm"> Movie or TV show reviews</h3>
+        <p id="vicino">On the Instagram account, I used to review also movies and TV shows. <br>
+        I don't like writing about movies as I like writing about books, but eventually I review TV shows and movies. This kind of reviews won't be frequent because I watch really few movies and I'm really slow wth TV shows, I don't have much time.</p></div>
         
+        <div class="sotto div">
         <h3 id="altricontenuti">Other topics</h3>
         <p id="vicino"> I would also like to have a "column": I would post when I have a topic idea. I know I won't have ideas and inpiration to keep an active column, but I encourage you to write me some topic ideas <a href="https://tellonym.me/ranalettrice">here</a>. Write me everything you want me to talk about, "serious" things or fandom things. </p>
         </div>
-        <div id="piccolo"><p id="psmall" style="font-size: 20px;">Thank you very much, I hope the blog will interest you</p></div>
+        </div>
+        
+        <div class="column side">
+            <div class="sotto side"><p>Go back to the <a href="https://just-a-booklover.github.io/just-a-bookworm.github.io/">Italian version</a> ;) !</p></div></div>
+        
+        <div id="piccolo"><p>Thank you very much, I hope the blog will interest you</p></div>
         </div>
         
     </body>
