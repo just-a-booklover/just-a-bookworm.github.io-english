@@ -1,64 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-<style>
-         body {
-            font-family: Georgia, Times, "Times New Roman", serif; 
-            background-color: rgb(163, 206, 241);
-            color: rgb(39, 76, 119);
-            font-size: 30px;
+  <style>
+        body {
+            font-family: Georgia, Times, "Times New Roman", serif;
+            color: rgb(0, 16, 17);
+            font-size: 15px;
         }
         a:link {
-            color: rgb(39, 76, 119);
+            color: rgb(114, 128, 138);
         }
         a:visited {
-            color: rgb(139, 140, 137);
+            color: rgb(0, 16, 17);
         }
         a:hover {
-            background-color: rgb(96, 150, 186);
+            background-color: rgb(191, 215, 181);
         }
         #titlediv {
-            background-color: rgb(231, 236, 239);
-            font-size: 39px;
+            background-color: rgb(241, 250, 238);
+            font-size: 25px;
+            margin: -8px;
             padding-top: 7px;
             padding-bottom: 7px;
-            width: 99%;
-            border: 5px solid rgb(96, 150, 186);
-            box-shadow: 5px 5px 20px rgb(139, 140, 137);
         }
         #links {
-            font-size: 25px;
-            background-color: rgb(231, 236, 239);
-            margin-right: 5px;
-            margin-left: 5px;
+            font-size: 20px;
+            background-color: rgb(163, 196, 188);
+            margin: -8px;
             text-align: center;
             padding: 5px;
             clear: both;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            border: 5px solid rgb(96, 150, 186);
-            box-shadow: 5px 5px 20px rgb(139, 140, 137);
-        }
-        .column.main {
-            width: 65%;
-            margin-top: 30px;
-            padding: 2px;
-            margin-right: 10px;
-            margin-left: 10px;
-            background-color: rgb(163, 206, 241);
         }
         .sotto {
-            background-color: rgb(231, 236, 239);
-            border: 5px solid rgb(96, 150, 186);
+            background-color: rgb(241, 250, 238);
             padding: 10px;
-            margin-bottom: 20px;
-            box-shadow: 5px 5px 20px rgb(139, 140, 137);
-        }
-        .column.side {
-            width: 30%;
-            margin-left: 10px;
-            margin-top: 30px;
-            background-color: rgb(163, 206, 241);
+            margin: -8px;
         }
         #title {
             text-align: center;
@@ -71,15 +47,11 @@
         }
         #piccolo {
             font-size: 10px;
-            background-color: rgb(231, 236, 239);
-            margin-right: 5px;
-            margin-left: 5px;
+            background-color: rgb(163, 196, 188);
+            margin: -8px;
             text-align: right;
             padding: 5px;
             clear: both;
-            margin-top: 20px;
-            border: 5px solid rgb(96, 150, 186);
-            box-shadow: 5px 5px 20px rgb(139, 140, 137);
         }
        #img {
             float: left;
@@ -106,6 +78,11 @@
             position: relative;
             width: 99%;
         }
+      #home {
+           position: fixed;
+           right: 20px;
+           bottom: 20px;
+       }
         </style>
         <meta charset="utf-8">
         <title>Just a Bookworm!</title>
@@ -121,20 +98,18 @@
             <a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-books/">REVIEWED BOOKS</a>  —  
             <a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-rubrica/">REVIEWED MOVIES AND TV SHOWS</a></p></div>
         
-        <div class="column main"><div class="sotto div"><p>Hi, I'm Laura and I love reading. I decided to create this website to share what I think about the books I read and other things.</p>
-        
-        <p> What I want to post:</p>
+      <div class="sotto div"><p style="margin-right: 20px; margin-left: 20px;">Hi, I'm Laura and I love reading. I decided to create this website to share what I think about the books I read and other things.<br> What I want to post:
         
         <ul id="vicino">
             <li><a href="#recensionilibri">book reviews</a></li>
             <li><a href="#recensionifilm">movie or TV show reviews</a></li>
             <li> <a href="#altricontenuti">other topics</a></li>
-        </ul>
+          </ul></p>
         </div>
         
         <div class="sotto div">
-        <h3 id="recensionilibri">Book reviews</h3>
-        <p id="vicino">I've always loved reading, and in 2017 I opened an Instagram account (if you want to see it it's @rana_lettrice, the reviews are in Italian, but you might enjoy my photos .^.) where I used to recommend books. But I don't like Instagram anymore so I deleted Instagram from my phone, I learnt how to create websites and I started this blog.<br> I am from Italy and I read mostly Italian books, but sometimes (in fact, everytime I can find a book in English in the library or online by an author I think I can understand well enough) I read in English too. I wouldn't post here in the English section Italian books because of the quotes: I wouldn't translate them right and I don't want to disrespect the author by quoting him wrong.<br>By the way, my recommendations will contain:
+        <h3 id="recensionilibri" style=" border-bottom: 3px solid rgb(191, 215, 181);">Book reviews</h3>
+        <p id="vicino" style="margin-right: 20px; margin-left: 20px;">I've always loved reading, and in 2017 I opened an Instagram account (if you want to see it it's @rana_lettrice, the reviews are in Italian, but you might enjoy my photos .^.) where I used to recommend books. But I don't like Instagram anymore so I deleted Instagram from my phone, I learnt how to create websites and I started this blog.<br> I am from Italy and I read mostly Italian books, but sometimes (in fact, everytime I can find a book in English in the library or online by an author I think I can understand well enough) I read in English too. I wouldn't post here in the English section Italian books because of the quotes: I wouldn't translate them right and I don't want to disrespect the author by quoting him wrong.<br>By the way, my recommendations will contain:
         </p>
         <ul id="vicino">
             <li>the plot of the book, of course</li>
@@ -144,21 +119,17 @@
             </ul></div>
         
         <div class="sotto div">
-        <h3 id="recensionifilm"> Movie or TV show reviews</h3>
-        <p id="vicino">On the Instagram account, I used to review also movies and TV shows. <br>
+        <h3 id="recensionifilm" style=" border-bottom: 3px solid rgb(191, 215, 181);"> Movie or TV show reviews</h3>
+        <p id="vicino" style="margin-right: 20px; margin-left: 20px;">On the Instagram account, I used to review also movies and TV shows. <br>
         I don't like writing about movies as I like writing about books, but eventually I review TV shows and movies. This kind of reviews won't be frequent because I watch really few movies and I'm really slow wth TV shows, I don't have much time.</p></div>
         
         <div class="sotto div">
-        <h3 id="altricontenuti">Other topics</h3>
-        <p id="vicino"> I would also like to have a "column": I would post when I have a topic idea. I know I won't have ideas and inpiration to keep an active column, but I encourage you to write me some topic ideas <a href="https://tellonym.me/ranalettrice">here</a>. Write me everything you want me to talk about, "serious" things or fandom things. </p>
+        <h3 id="altricontenuti" style=" border-bottom: 3px solid rgb(191, 215, 181);">Other topics</h3>
+        <p id="vicino" style="margin-right: 20px; margin-left: 20px;"> I would also like to have a "column": I would post when I have a topic idea. I know I won't have ideas and inpiration to keep an active column, but I encourage you to write me some topic ideas <a href="https://tellonym.me/ranalettrice">here</a>. Write me everything you want me to talk about, "serious" things or fandom things. </p>
         </div>
         </div>
-        
-        <div class="column side">
-            <div class="sotto side"><p>Go back to the <a href="https://just-a-booklover.github.io/just-a-bookworm.github.io/">Italian version</a> ;) !</p></div></div>
         
         <div id="piccolo"><p>Thank you very much, I hope the blog will interest you</p></div>
-        </div>
         
     </body>
 </html>
